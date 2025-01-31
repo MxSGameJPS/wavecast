@@ -14,16 +14,25 @@
         padding-right: 1rem;
     }
 
+    .cabecalho {
+        justify-self: center;
+    }
+
     .navbar {
         display: block;
     }   
 
+    .secao-horizontal .cartao{
+        column-gap: .5rem;
+
+    }
     .secao-horizontal .cartao__imagem {
         height: 4.58rem;
     }
  
     .secao-horizontal .cartao__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center;
     }
 
     .secao-vertical .cartao {
@@ -45,6 +54,10 @@
         display: none;
     }
 
+    .menu-lateral {
+        
+        width: 208px;
+    }
     .navbar {
         display: none;
     }
@@ -73,6 +86,10 @@
     .navbar,
     .cabecalho__logo {
         display: none;
+    }
+
+    .menu-lateral {
+        width: 228px;
     }
 
 }
